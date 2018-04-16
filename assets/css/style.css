@@ -1,0 +1,239 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+
+}
+body {
+	background-color: white;
+	font-family: 'PT Serif', serif;
+}
+
+#navbar{
+	position: absolute
+	background-color:gray;
+	width:100%;
+	border:none;
+
+}
+#navbar li{
+	display:inline-block;
+	color:white;
+}
+#navbar a{
+	color:white;
+	font-size:22px;
+	padding:0px 50px 0px 5px;
+	width:100%;
+	z-index:9999;
+
+}
+#navbar a:hover{
+	background-color:white;
+	color:black;
+}
+#main-section{ 
+    /* The image used */
+    background-image: url("../img/headerbg.jpg");
+
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header-links li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header2-links li{
+	display: inline-block;
+	vertical-align:middle;
+}
+.header{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:white;
+}
+a {
+	text-decoration:none;
+}
+.header a{
+	color: white;
+}
+.header-greet{
+	font-size:70px;
+	font-family: 'Arima Madurai', cursive;
+}
+.header-name{
+	font-size:35px;
+	font-family: 'Roboto', sans-serif;
+}
+.header-title{
+	font-family: 'Roboto', sans-serif;
+	padding:5px;
+}
+.gmail, .github{
+	padding:0px 5px 0px 5px;
+}
+.linkedin{
+	padding:0px 90px 0px 5px;
+}
+
+.my-picture{
+	padding:50px;
+	width:80%;
+	margin:0 auto;
+	border-radius:70px;
+
+}
+
+.dev-name{
+	color:white;
+	font-size:50px;
+	font-weight:normal;
+}
+.about-me{
+	text-align:center;
+	color:#aea400;
+}
+.bio{
+	color:black;
+    text-align: center;
+    text-justify: inter-word;
+
+}
+
+section#portfolio-section > h2,
+section#skills-section > h2,
+section#contact-section > h2{
+	padding: 25px 0;
+	text-align:center;
+}
+#portfolio-section{
+	background-color: gray;
+	
+}
+div#portfolio-sect-1{
+	height:88vh;
+}
+.portfolio-sect-2{
+	/*width: calc(100% / 3);*/
+	width:33%;
+	min-height: 100%;
+}
+.portfolio-sect-2 > img {
+	width: 100%;
+}
+.portfolio-sect-2 > h3{
+	padding:20px 0;
+}
+.portfolio-sect-3 > p {
+	height: 200px;
+}
+.sect-csp-1{
+	background-color:red;
+}
+.sect-csp-2{
+	background-color:orange;
+}
+.sect-csp-3{
+	background-color:yellow;
+}
+.sect-csp-1,
+.sect-csp-2,
+.sect-csp-3{
+	display:inline-block;
+}
+#skills-section{
+	 background-color:white;
+	 
+}
+#skills-sect{
+	height:80%;
+	background-color:lightblue; /*for testing*/
+	text-align:center;
+}
+
+.skills-sect-1{
+	width:49%;
+	display:inline-block;
+	height:100%;
+}
+.skills-sect-1 > h3{
+	height:10%;
+
+}
+.skills-sect-2{
+	background-color:gray;
+	height:90%;
+}	
+.frontend{
+	background-color:red;	/*for testing*/
+}
+.backend{
+	background-color:orange;	/*for testing*/
+}
+
+
+.css{
+	/*padding:50px 500px 0px 5px;*/
+}
+#contact-section{
+	background-color:lightgray;
+}
+#about-sect{ /*For About-Contact section*/
+	background-color:lightblue;
+	height: 80%;
+}
+
+#about-sect > .about-sect-1,
+#about-sect > .about-sect-2 {
+	width: 49%;
+	display:inline-block;
+	height:100%;
+}
+
+.about-sect-1{
+	background-color:red;
+}
+.about-sect-2{
+	background-color: orange;
+}
+
+
+/*Ending CSS for About-Contact section*/
+
+
+
+#about-section{
+	background-color:#fbfbfb;
+	height:150%;
+	
+
+
+}
+.about{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+#main-section,
+#portfolio-section,
+#skills-section, 
+#contact-section{
+	min-height: 100vh;
+}
